@@ -1,48 +1,39 @@
-.App {
-  height: 100%;
-  min-height: 400px;
+.form{
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: stretch;
+  background-color: wheat;
+  margin-top: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 40%;
+  margin-right: 40%;
+
 }
 
-.App-flex {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.i1{
+  background-color: cornsilk;
+  text-align: center;
 }
 
-.App-heading {
-  background-color: #222;
-  color: #f8f8f8;
-  font-size: 6vh;
-  box-shadow: 0px 4px 4vh 4px rgba(34,34,34,0.9);
-  z-index: 2;
+
+.i2{
+  background-color: cornsilk;
+  text-align: center;
 }
 
-.App-react {
-  color: #00d8ff;
-  text-decoration: overline underline;
+
+.i3{
+  background-color: cornsilk;
+  text-align: center;
 }
 
-.App-logo {
-  max-height: 30vh;
-  max-width: 30vh;
+
+.i4{
+  background-color: cornsilk;
+  text-align: center;
 }
 
-.App-instructions {
-  background-color: #f8f8f8;
-  color: #222;
-  font-size: 3vh;
-  line-height: 1.5;
-  padding: 0 1em;
-}
-
-.App-instructions code {
-  background-color: #222;
-  color: #00d8ff;
-  padding: .2em .3em;
-  border-radius: .2em;
+.b1{
+  width: 40%;
+  color: tomato;
 }
