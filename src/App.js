@@ -1,17 +1,17 @@
 import './App.css'
-import Heading from './Heading.js'
-import React, {useState} from 'react'
+import Heading from './Components/Heading';
+import React, {useState} from 'react';
+
+
+const handleClick = () => {
+  alert('Submitted Successfully !!!!');
+}
 
 function App(){
   const [ firstName , setFirstName ] = useState("");
   const [ lastName , setLastName ] = useState("");
   const [ email , setEmail ] = useState("");
   const [ password , setPassword ] = useState("");
-
-  const handleClick = ()=> {
-    console.log(handleClick);
-  }
-
 
 return(
 
@@ -36,7 +36,7 @@ return(
 
     <input className="i2"
       value = {lastName}
-      onChange = {e => setLastName(e.target.value)}
+      onChange = {(e) => setLastName(e.target.value)}
       placeholder = "Last name"
       type = "text"
       name = "lastName"
@@ -47,7 +47,7 @@ return(
 
     <input className="i3"
       value = {email}
-      onChange = {e => setEmail(e.target.value)}
+      onChange = {e  => setEmail(e.target.value)}
       placeholder = "Email Address"
       type = "email"
       name = "email"
@@ -66,7 +66,10 @@ return(
     />
     <br /><br /><br />
 
-    <button className="b1" onClick = {handleClick}>
+
+    <button
+      className="b1"
+      onClick = {handleClick}>
       SUBMIT
     </button>
 
