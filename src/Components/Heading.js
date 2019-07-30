@@ -1,6 +1,6 @@
 import './Heading.css'
 
-import React, {useState} from 'react'
+import React from 'react'
 
 function Heading() {
   return(

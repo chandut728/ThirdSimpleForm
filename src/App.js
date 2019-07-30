@@ -25,7 +25,7 @@ return(
 
     <input className="i1"
       value = {firstName}
-      onChange = {e => setFirstName(e.target.value)}
+      onChange = {(e) => setFirstName(e.target.value)}
       placeholder = "First name"
       type = "text"
       name = "firstName"
@@ -47,7 +47,7 @@ return(
 
     <input className="i3"
       value = {email}
-      onChange = {e  => setEmail(e.target.value)}
+      onChange = {(e)  => setEmail(e.target.value)}
       placeholder = "Email Address"
       type = "email"
       name = "email"
@@ -58,7 +58,7 @@ return(
 
     <input className="i4"
       value = {password}
-      onChange = {e => setPassword(e.target.value)}
+      onChange = {(e) => setPassword(e.target.value)}
       placeholder = "Password"
       type = "password"
       name = "password"
